@@ -1,0 +1,83 @@
+*{
+	background: #F3F5FC;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+main{
+	display: flex;
+	margin-left: 100px;
+}
+
+.logo{
+	width: 30%;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+
+.listBox-Encriptar{
+	border: none;
+	margin-top: 80px;
+}
+
+.botones{
+	margin-top: 50px;
+}
+
+.btn-Encriptar{
+	background: #0A3871;
+	color: whitesmoke;
+	border-radius: 24px;
+	width: 220px;
+	cursor: pointer;
+	transition: 1s all;
+}
+
+.btn-Encriptar:hover{
+	background: orange;
+	transform: scale(1.1);
+}
+
+
+.btn-Desencriptar{
+	background: #0ABA81;
+	color: blue;
+	border-radius: 24px;
+	width: 220px;
+	cursor: pointer;
+	transition: 1s all;
+}
+
+.btn-Desencriptar:hover{
+	background: orange;
+	transform: scale(1.1);
+}
+
+.textBox-Mensajes{
+	background: white;
+	margin-top: 50px;
+	margin-left:100px ;
+	background-image: url(imagenes/muneco.png);
+	background-repeat: no-repeat;
+}
+
+.btn-copiar{
+	background: blue;
+	color: white;
+	border-radius: 24px;
+	width: 220px;
+	cursor: pointer;
+	transition: 1s all;	
+	margin-top: 25px;
+	margin-left: 150px;
+}
+
+.btn-copiar:hover{
+	background: Yellow;
+	color:red;
+	transform: scale(1.1);
+}
